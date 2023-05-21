@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <!-- 폰트 사이즈를 어떻게 바꾸던간에 h1의 크기는 완전한 영향에서 벗어난다 -->
+        <!-- 모든 헤딩은 기본값이 bold이며 폰트 사이즈가 지정되어 있음 -->
+        <!-- important 도 안먹힘 -->
+        <h1>i am h1</h1>
+        <div class="">i am just div</div>
+
+        <!-- text-align : center를 했는데 요소 전체의 위치가 바뀜 -->
+        <a href="">i am a tag</a>
+    </body>
+    <style>
+        html {
+            /* font-size: 1.125rem; */
+            font-size: 1.125em;
+            /* font-size: 50px !important; */
+            text-align: center;
+        }
+        h1 {
+            /* font-size: inherit; */
+        }
+    </style>
+</html>
